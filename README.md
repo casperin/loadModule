@@ -6,6 +6,11 @@ This is a lowtech way to solve the problem of loading modules in the browser in 
 
 Loading a module:
 
+`loadModule` takes 3 arguments:
+1. The path of the file (with or without `.js` at the end).
+2. The name of the module (see exporting a module below).
+3. A callback that receives the module once it's loaded.
+
 ```html
 <script src='loadModule.js'></script>
 <script>
