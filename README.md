@@ -19,6 +19,7 @@ Loading a module:
         m.name === 'foo' // will be true
     })
 </script>
+```
 
 Exporting a module:
 
